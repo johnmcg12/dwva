@@ -2,7 +2,7 @@
 # https://checkmarx.com/resource/documents/en/34965-68725-using-sca-resolver-in-checkmarx-one-ci-cd-integrations.html
 #
 
-name: SCA Resolver Example
+name: SCA Resolver Workflow
 
 on:
   push:
