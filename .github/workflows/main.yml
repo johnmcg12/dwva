@@ -13,14 +13,14 @@
 #
 # For full documentation, including a list of all inputs, please refer to the README https://github.com/checkmarx-ts/checkmarx-cxflow-github-action
 
-#name: Checkmarx SAST Scan
-#on:
+# name: Checkmarx SAST Scan
+# on:
 #  push:
 #    branches:
 #      - main
 #      - master
     
-#jobs:
+# jobs:
 #  build:
 #    runs-on: ubuntu-latest
 #    steps:
