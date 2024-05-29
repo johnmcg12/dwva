@@ -2,15 +2,15 @@
 # https://checkmarx.com/resource/documents/en/34965-68725-using-sca-resolver-in-checkmarx-one-ci-cd-integrations.html
 #
 
-#name: SCA Resolver Workflow Test
+# name: SCA Resolver Workflow Test
 
-#on:
+# on:
 #  push:
 #    branches:
 #      [master]
 #  workflow_dispatch:
 
-#jobs:
+# jobs:
 #  build:
 #    runs-on: ubuntu-latest
 
