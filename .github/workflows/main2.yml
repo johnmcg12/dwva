@@ -33,7 +33,6 @@ jobs:
           /home/linuxbrew/.linuxbrew/bin/brew install checkmarx/ast-cli/ast-cli
           /home/linuxbrew/.linuxbrew/Cellar/ast-cli/*/bin/cx \
             scan create \
-            -s . \
             --agent GitHub \
             --project-name ${{ github.repository }} \
             --branch ${GITHUB_REF##*/} \
